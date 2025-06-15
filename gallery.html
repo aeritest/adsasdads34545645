@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | StandTall by Jaxson</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    nav {
+      background-color: #222;        /* Dark background */
+      padding: 12px 24px;
+      display: flex;
+      justify-content: center;       /* Center the links horizontally */
+      gap: 32px;                     /* Space between links */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fc3048;               /* Bright accent color on hover */
+      border-bottom: 2px solid #fc3048;
+      padding-bottom: 2px;
+    }
+
+    /* Optional: gallery images layout */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 15px 0;
+      background-color: #222;
+      color: #bbb;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+    <p>See real examples of our life-size custom cardboard cutouts</p>
+  </header>
+
+  <nav>
+    <a href="https://sites.google.com/view/standtallbyjaxson/gallery">Home</a>
+    <a href="https://sites.google.com/view/standtallbyjaxson/gallery">Gallery</a>
+    <a href="https://sites.google.com/view/standtallbyjaxson/order">Order</a>
+    <a href="https://sites.google.com/view/standtallbyjaxson/contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Recent Cutouts</h2>
+    <div class="gallery">
+      <img src="https://mail.google.com/mail/u/7?ui=2&ik=d1e80f9fd6&attid=0.1&permmsgid=msg-a:r2430715629654537104&th=1977559d83303d7d&view=fimg&fur=ip&permmsgid=msg-a:r2430715629654537104&sz=s0-l75-ft&attbid=ANGjdJ_GWl914H7CsBFbLGOC7SUp3rrDY7gUMphvTevOAilY692DpigwMRBpb1Qfut0YBoQa1buuC0IHNfqMie7W1Uw4K-qk0AAgucAGFsjcJYUUQ-lBBxT1rTP72hc&disp=emb&realattid=ii_1977558d1beb85f31f81&zw" alt="Cutout 1" />
+    </div>
+  </section>
+
+  <footer>&copy; 2025 StandTall by Jaxson</footer>
+</body>
+</html>
